@@ -1,6 +1,6 @@
-# RewardsDNA People Science Skills
+# People Science Skills
 
-![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-blue)
 
 **Better questions → Better reasoning → Better decisions → Better decision systems.**
@@ -23,9 +23,10 @@ Install via `skills` CLI:
 npx skills add https://github.com/rewardsdna/people-science-skills
 
 # Or install individual skills directly:
-npx skills add https://github.com/rewardsdna/people-science-skills --skill rewardsdna-hr
-npx skills add https://github.com/rewardsdna/people-science-skills --skill rewardsdna-compensation-management
-npx skills add https://github.com/rewardsdna/people-science-skills --skill rewardsdna-people-analytics
+npx skills add https://github.com/rewardsdna/people-science-skills --skill people-science-core-reasoning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill compensation-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill hr-analytics-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill organizational-behavior-decisioning
 ```
 
 ### Manual Installation
@@ -46,9 +47,10 @@ Clone the repository and copy the target skill folder into your agent's skills d
 | Skill | Description | When to Use |
 |-------|-------------|-------------|
 | **[people-science-skills](./SKILL.md)** | Root Master Skill combining core reasoning and scientific integrity | Marketplace registration, indexers, and broad people decisions |
-| **[rewardsdna-hr](./skills/rewardsdna-hr/)** | Broad HR, talent management, performance, workforce policies, and org behavior | HR strategy, employee experience, talent, performance, and leadership decisions |
-| **[rewardsdna-compensation-management](./skills/rewardsdna-compensation-management/)** | Pay structures, internal equity, market positioning, incentives, and rewards | Designing pay bands, incentives, bonuses, total rewards, and equity modeling |
-| **[rewardsdna-people-analytics](./skills/rewardsdna-people-analytics/)** | Quantitative HR questions, workforce metrics, statistical modeling, and data | Turning HR questions into metrics, research designs, predictive models, or decision systems |
+| **[people-science-core-reasoning](./skills/people-science-core-reasoning/)** | Foundational reasoning model for any people-related decision | Always — load this first for HR, talent, org behavior, or compensation questions |
+| **[compensation-decisioning](./skills/compensation-decisioning/)** | Pay structures, internal equity, market positioning, incentives, and behavioral consequences | Analyzing or designing pay systems, equity, incentives, or total rewards |
+| **[hr-analytics-decisioning](./skills/hr-analytics-decisioning/)** | Translating people questions into measurable variables, analytical designs, and decisions | Turning HR questions into metrics, research designs, models, or decision systems |
+| **[organizational-behavior-decisioning](./skills/organizational-behavior-decisioning/)** | Distinguishing behavioral mechanisms from assumptions, evaluating culture, motivation, leadership, and interventions | Analyzing culture, engagement, motivation, team dynamics, leadership, or change interventions |
 
 ---
 
@@ -85,19 +87,21 @@ This repository includes automated evaluation test cases in `evals/` to benchmar
 ## 📁 Repository Structure
 
 ```text
-├── SKILL.md                                 # Root Master Skill (LobeHub / AgentSkill.sh)
-├── README.md                                # Repository Catalog
-├── LICENSE                                  # Apache-2.0 License
-├── core/                                    # Core Reasoning & Evidence Policies
+├── SKILL.md                                         # Root Master Skill (LobeHub / AgentSkill.sh)
+├── README.md                                        # Repository Catalog
+├── LICENSE                                          # MIT License
+├── .gitignore
+├── core/                                            # Shared Policy Framework
 │   ├── reasoning-policy.md
 │   ├── evidence-policy.md
 │   ├── scientific-integrity.md
 │   └── repeatability-policy.md
-├── skills/                                  # Domain Skills
-│   ├── rewardsdna-hr/
-│   ├── rewardsdna-compensation-management/
-│   └── rewardsdna-people-analytics/
-└── evals/                                   # Evaluation & Benchmark Suite
+├── skills/                                          # Standardized Skill Modules
+│   ├── people-science-core-reasoning/
+│   ├── compensation-decisioning/
+│   ├── hr-analytics-decisioning/
+│   └── organizational-behavior-decisioning/
+└── evals/                                           # Evaluation & Benchmark Suite
     ├── reasoning.json
     └── scientific-integrity.json
 ```
@@ -106,4 +110,4 @@ This repository includes automated evaluation test cases in `evals/` to benchmar
 
 ## 📄 License
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is licensed under the [MIT License](LICENSE).

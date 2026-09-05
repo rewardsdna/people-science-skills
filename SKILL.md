@@ -1,7 +1,7 @@
 ---
 name: people-science-skills
 description: Core reasoning skill and collection for people, work, organizations, HR, compensation, talent, analytics, and organizational behavior decisions. Grounds agent reasoning in human behavior, first principles, and empirical evidence.
-license: Apache-2.0
+license: MIT
 metadata:
   owner: rewardsdna
   version: "0.1.0"
