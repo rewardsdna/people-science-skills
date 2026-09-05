@@ -9,6 +9,18 @@ metadata:
 
 # People Science Skills — Core Reasoning & Decision Framework
 
+This repository provides evidence-based People, HR, and Organizational decision skills. The collection includes specialized skills for core reasoning, compensation decisioning, HR analytics, and organizational behavior.
+
+**Use the specialized skill relevant to your task:**
+- **[people-science-core-reasoning](./skills/people-science-core-reasoning/SKILL.md)**: Foundational behavioral reasoning and first-principles thinking for any people-related decision.
+- **[compensation-decisioning](./skills/compensation-decisioning/SKILL.md)**: Pay structures, market positioning, incentives, pay equity, and total rewards.
+- **[hr-analytics-decisioning](./skills/hr-analytics-decisioning/SKILL.md)**: Workforce metrics, statistical modeling, research designs, and data analysis.
+- **[organizational-behavior-decisioning](./skills/organizational-behavior-decisioning/SKILL.md)**: Workplace culture, motivation, team dynamics, leadership, and change interventions.
+
+When loaded as a master skill, apply the core philosophy, reasoning model, and scientific integrity guardrails below.
+
+---
+
 ## Purpose
 
 Use this skill whenever an AI agent is helping answer a question, analyze a problem, or design a decision involving people, work, organizations, HR, compensation, talent, analytics, or organizational behavior.
@@ -102,9 +114,9 @@ Ensure system repeatability:
 
 ## Included Domain Skills
 
-This repository provides specialized domain skills:
+This repository provides four specialized domain skills in `./skills/`:
 
-- **`rewardsdna-hr`** (`./skills/rewardsdna-hr/SKILL.md`): Broad HR strategy, talent management, employee experience, and organizational behavior decisions.
-- **`rewardsdna-compensation-management`** (`./skills/rewardsdna-compensation-management/SKILL.md`): Pay structures, internal equity, market positioning, incentives, and behavioral consequences.
-- **`rewardsdna-people-analytics`** (`./skills/rewardsdna-people-analytics/SKILL.md`): Translating people questions into measurable variables, statistical designs, predictive models, and decision systems.
-- **`people-science-core-reasoning`** (`./people-science-core-reasoning/SKILL.md`): Standalone core reasoning skill module.
+- **`people-science-core-reasoning`** (`./skills/people-science-core-reasoning/SKILL.md`): Foundational reasoning model for any people-related decision.
+- **`compensation-decisioning`** (`./skills/compensation-decisioning/SKILL.md`): Pay structures, internal equity, market positioning, incentives, and behavioral consequences.
+- **`hr-analytics-decisioning`** (`./skills/hr-analytics-decisioning/SKILL.md`): Translating people questions into measurable variables, analytical designs, statistical models, and decision systems.
+- **`organizational-behavior-decisioning`** (`./skills/organizational-behavior-decisioning/SKILL.md`): Distinguishing behavioral mechanisms from assumptions, evaluating culture, motivation, leadership, and interventions.
