@@ -8,7 +8,7 @@
 A collection of open agent skills that help AI systems reason more carefully about people, work, organizations, HR, compensation, talent, analytics, and workforce decisions.
 
 These skills do **not** turn an agent into an "HR expert."  
-They force better questions, clearer mechanisms, stronger evidence standards, scientific integrity, and transparent decision-making.
+They force better questions, clearer mechanisms, stronger evidence standards, scientific integrity, zero fluff, and transparent decision-making.
 
 ---
 
@@ -54,33 +54,50 @@ Clone the repository and copy the target skill folder into your agent's skills d
 
 ---
 
-## 🧠 Core Philosophy & Scientific Integrity
+## 🧠 The 4 Core Pillars of Rigor
 
-People and organizations are complex systems. Good decisions start with better questions and are grounded in:
+Every skill in this repository is built around four fundamental operational pillars:
 
-1. **Human Behavior & Psychology**
-2. **First-Principles Thinking**
-3. **Evidence & Empirical Research**
+```text
+┌─────────────────────────┬─────────────────────────┬─────────────────────────┬─────────────────────────┐
+│ 🔁 Scientific          │ ⚡ Cognitive           │ 🛡️ Hallucination        │ 💼 Executive            │
+│    Repeatability        │    Efficiency           │    Prevention           │    Usability            │
+├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ • Evidence Gatekeeping  │ • Zero Consulting Fluff │ • No Fake Statistics    │ • BLUF Executive Summary│
+│ • Deterministic Rules   │ • High Token Density    │ • Explicit Source Tags  │ • 3-Column Options Table│
+│ • Pilot Requirements    │ • BLUF Formatting       │ • Anti-Pop-HR Exclusions│ • 30-60-90 Day Roadmap  │
+└─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
+```
 
-### The Reasoning Sequence
+### 1. 🔁 Scientific Repeatability & Evidence Gatekeeping
+- **Requires Evidence Before Intervention**: Forbids recommending full-scale policy or reward overhauls without baseline empirical proof. Recommends Diagnostic Audits or Pilots when data is incomplete.
+- **The Evidence Gatekeeper Condition**: Every recommendation specifies an explicit Gatekeeper Condition (*"Do NOT authorize full implementation of Intervention X until Data Benchmark Y is verified"*).
+- **Correlation vs. Causation Filter**: Enforces associative language ("is correlated with") for observational workforce data.
 
-> **Question → Behavior → First Principles → Evidence → Context → Alternatives → Trade-offs → Decision → Repeatability**
+### 2. ⚡ Cognitive Efficiency & Zero Consulting Boilerplate
+- **Zero Filler**: Eliminates conversational fluff (*"In today's fast-paced corporate environment..."*) and starts responses immediately with the decision.
+- **High Token-Density Formatting**: Uses structured Markdown tables, bulleted mechanisms, and bold key terms to maximize readability and inference speed.
 
-### Scientific Integrity Guardrails
+### 3. 🛡️ Hallucination Prevention & Source Tagging
+- **No Synthetic Statistics or Fake Citations**: Forbids generating fake percentages or fabricated academic studies.
+- **Mandatory Source Tagging**: Classifies all claims into `[Empirical Consensus]`, `[User-Supplied Data]`, or `[Unverified Hypothesis]`.
+- **Deliberate Exclusions**: Explicitly rejects Pop HR, Pop Psychology, vendor marketing reports, and LinkedIn influencer trends.
 
-This project deliberately excludes pop HR, pop psychology, vendor marketing material, content marketing, and social media popularity as substitutes for empirical evidence:
-- **No Pop HR**: Rejects universal "best practice" formulas and generational stereotypes.
-- **No Pop Psychology**: Rejects viral diagnostic labels and unvalidated personality tests.
-- **No Vendor Marketing**: Rejects sales reports and vendor maturity models as empirical proof.
-- **Statistical Discipline**: Forces clear separation of correlation vs. causation.
+### 4. 💼 Executive Usability & Decision Mandate
+- **Make an Actual Decision**: Rejects vague "it depends" hedging; forces a concrete **Recommended Decision**.
+- **Mandatory 4-Part Output Structure**:
+  1. **🎯 Executive Summary (BLUF)**: 2-sentence Bottom-Line Up Front with Gatekeeper Condition.
+  2. **📊 Options & Decision Matrix**: 3-Column comparative table (`Option` | `Behavioral Mechanism` | `Key Risk & Trade-off`).
+  3. **🔬 Evidence & Causal Discipline Audit**: Associative language check and evidence classification.
+  4. **📅 30-60-90 Day Operational Roadmap**: Clear execution steps from audit $\rightarrow$ pilot $\rightarrow$ scaling.
 
 ---
 
 ## 🧪 Evaluation Suite (`evals/`)
 
 This repository includes automated evaluation test cases in `evals/` to benchmark LLM reasoning:
-- **`evals/reasoning.json`**: Evaluates causal logic, incentive mechanics, and decision systems.
-- **`evals/scientific-integrity.json`**: Evaluates rejection of Pop HR, vendor claims, and LinkedIn myths.
+- **`evals/reasoning.json`**: Evaluates causal logic, incentive mechanics, evidence gatekeeping, and decision systems.
+- **`evals/scientific-integrity.json`**: Evaluates rejection of Pop HR, vendor claims, fake statistics, and LinkedIn myths.
 
 ---
 
