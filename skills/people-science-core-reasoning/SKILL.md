@@ -10,22 +10,16 @@ license: MIT
 
 Use this skill whenever an AI agent is helping answer a question, analyze a problem, or design a decision involving people, work, organizations, HR, compensation, talent, or organizational behavior.
 
-The purpose is **not** to make the agent behave like an HR expert.  
-The purpose is to help the agent **reason better** about people-related decisions.
+The purpose is **not** to make the agent behave like a conventional HR consultant.  
+The purpose is to help the agent **make actionable, evidence-based decisions** about people.
 
 ---
 
-## Core Philosophy
+## 🎯 Executive Usability Mandate
 
-Better HR decisions begin with better questions.
-
-People and organizations are complex. HR decisions should therefore be grounded in:
-
-1. **Human Behavior & Psychology**
-2. **First-Principles Thinking**
-3. **Evidence & Empirical Research**
-
-Everything else (frameworks, models, recommendations, policies) is an *output* of this reasoning, not a starting point.
+1. **Zero Consulting Boilerplate**: Start responses immediately with the decision. Forbid conversational filler ("In today's fast-paced environment...").
+2. **Make an Actual Decision**: Do not hide behind vague "it depends" hedging. State an explicit **Recommended Decision**, behavioral rationale, and boundary conditions.
+3. **No Synthetic Statistics**: Never fabricate percentage figures or fake study citations. Tag claims (`[Empirical Consensus]`, `[User-Supplied Data]`, `[Unverified Hypothesis]`).
 
 ---
 
@@ -33,48 +27,33 @@ Everything else (frameworks, models, recommendations, policies) is an *output* o
 
 **Question → Behavior → First Principles → Evidence → Context → Alternatives → Trade-offs → Decision → Repeatability**
 
-### 1. QUESTION
-First identify the decision that actually needs to be made.
-Distinguish between the stated question, the underlying problem, and the actual decision.
-
-### 2. BEHAVIOR
-Identify the human behavior involved.
-Describe behavior in observable terms rather than abstract labels (e.g., "employees leaving within 90 days" instead of "low engagement").
-
-### 3. FIRST PRINCIPLES
-Deconstruct the problem into fundamental mechanisms:
-Incentives, information, capability, environment, social dynamics, and psychological needs (autonomy, competence, belonging, fairness).
-
-### 4. EVIDENCE & CAUSAL DISCIPLINE
-Evaluate empirical evidence.
-Never confuse observational correlation with causal proof. Use associative language ("is correlated with") rather than causal verbs ("drives", "causes") for non-experimental data.
-Audit for hidden confounders, selection bias, and reverse causality.
-
-### 5. CONTEXT
-Analyze situational context: organization size, stage, culture, industry, labor market, and boundary conditions.
-
-### 6. ALTERNATIVES
-Generative exploration of options. Avoid binary choices; generate multiple plausible interventions.
-
-### 7. TRADE-OFFS
-Analyze unintended consequences (cost, complexity, fairness, gaming, morale).
-
-### 8. DECISION
-Formulate a clear recommendation with rationale and risk mitigations.
-
-### 9. REPEATABILITY
-Ensure system repeatability: define metrics, monitoring, and feedback loops.
-
 ---
 
-## 🔬 Mandatory Output Section Requirement
+## 🔬 Mandatory Required Output Structure
 
-Every response MUST include a dedicated section:
+Every comprehensive response MUST follow this structure:
 
-### 🔬 Evidence & Causal Discipline Audit
+### 1. 🎯 Executive Summary (BLUF)
+- **Recommended Decision**: [Clear 1-sentence decision]
+- **Behavioral Rationale**: [Primary psychological/behavioral mechanism]
+- **Key Trade-off & Risk**: [Main unintended consequence and mitigation]
+
+### 2. 📊 Options & Decision Matrix
+| Option | Primary Behavioral Mechanism | Key Risk & Trade-off | Recommendation Tier |
+|---|---|---|---|
+| **Option A (Recommended)** | [Mechanism] | [Risk] | ✅ Recommended |
+| **Option B (Alternative)** | [Mechanism] | [Risk] | ⚠️ Secondary |
+| **Option C (Status Quo)** | [Mechanism] | [Risk] | ❌ Rejected |
+
+### 3. 🔬 Evidence & Causal Discipline Audit
 1. **Association vs. Causation**: Identify whether claims rely on correlation or experimental proof. Use associative language for observational data.
 2. **Confounding & Reverse Causality**: Identify at least two plausible confounders or selection biases.
 3. **Evidence Classification**: Grade evidence explicitly (Strongly Supported / Plausible / Assumption / Unknown).
+
+### 4. 📅 30-60-90 Day Operational Roadmap
+- **Days 1–30**: Baseline audit, data checks, and boundary condition definition.
+- **Days 31–60**: Pilot intervention on target cohort.
+- **Days 61–90**: Impact evaluation, Goodhart's Law audit, and process scaling.
 
 ---
 

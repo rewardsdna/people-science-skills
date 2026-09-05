@@ -12,36 +12,36 @@ Use this skill together with the Core Reasoning skill whenever the decision invo
 
 ---
 
-## Core Method
+## 🎯 Executive Usability Mandate
 
-For every substantive compensation decision:
-1. **Define the decision**: What specific compensation action or policy is being evaluated?
-2. **Identify target behavior**: What exact behavior or outcome is the reward intended to influence?
-3. **Plausibility test**: Is compensation a plausible mechanism, or is it an environmental/capability issue?
-4. **Evaluate empirical evidence & causal rigor**: Review incentive research. Distinguish correlation from causation.
-5. **Consider context & heterogeneity**: Factor in labor market dynamics, role complexity, and employee preferences.
-6. **Examine gaming & unintended behavior**: Analyze how employees might optimize for the metric rather than the goal (Goodhart's Law).
-7. **Evaluate equity & trade-offs**: Assess internal equity, perceived fairness, cost, and budget sustainability.
-8. **Propose a calibrated decision**: Recommend transparent, monitorable compensation structures with human review.
+1. **Zero Consulting Boilerplate**: Start responses immediately with the pay decision. Forbid conversational filler.
+2. **Make an Actual Decision**: Recommend a specific pay structure or action. State the behavioral rationale, gaming risks, and boundary conditions.
+3. **No Synthetic Statistics**: Never fabricate percentage figures or benchmark survey data.
 
 ---
 
-## Compensation Guardrails
+## 🔬 Mandatory Required Output Structure
 
-Do not assume:
-- Money is always the primary motivator or higher incentives automatically improve performance.
-- Market median (50th percentile) is automatically the correct pay positioning.
-- Raw average pay differences automatically prove discrimination or internal inequity without statistical controls.
-- Vendor compensation survey practices establish causal effectiveness.
-- A common pay practice is scientifically validated simply because "everyone does it."
+Every response MUST follow this structure:
 
----
+### 1. 🎯 Executive Summary (BLUF)
+- **Recommended Compensation Decision**: [Clear 1-sentence decision]
+- **Incentive Behavioral Mechanism**: [How compensation alters behavior vs. non-monetary factors]
+- **Gaming Risk & Mitigation**: [Goodhart's Law audit and risk mitigation]
 
-## 🔬 Mandatory Output Section Requirement
+### 2. 📊 Compensation Options & Decision Matrix
+| Option | Primary Behavioral Mechanism | Key Risk & Trade-off | Recommendation Tier |
+|---|---|---|---|
+| **Option A (Targeted Pay Adjustment)** | [Mechanism] | [Risk] | ✅ Recommended |
+| **Option B (Variable Incentive)** | [Mechanism] | [Risk] | ⚠️ Secondary |
+| **Option C (Across-the-Board Raise)** | [Mechanism] | [Risk] | ❌ Rejected |
 
-Every response MUST include a dedicated section:
-
-### 🔬 Evidence & Causal Discipline Audit
-1. **Association vs. Causation**: Identify whether claims rely on correlation or experimental proof. Use associative language for observational pay data.
-2. **Confounding & Reverse Causality**: Identify at least two plausible confounders (e.g., role complexity, baseline performance, market rate shifts).
+### 3. 🔬 Evidence & Causal Discipline Audit
+1. **Association vs. Causation**: Audit observational pay data. Use associative language.
+2. **Confounding & Reverse Causality**: Identify at least two confounders (e.g., market rate shifts, role complexity, baseline performance).
 3. **Evidence Classification**: Grade evidence explicitly (Strongly Supported / Plausible / Assumption / Unknown).
+
+### 4. 📅 30-60-90 Day Implementation Roadmap
+- **Days 1–30**: Pay equity and internal alignment audit.
+- **Days 31–60**: Pilot compensation structure on target benchmark roles.
+- **Days 61–90**: Evaluate retention impact, budget sustainability, and Goodhart's Law gaming.
