@@ -23,7 +23,7 @@ This skill adds the compensation-specific questions, distinctions, and guardrail
 Place the `compensation-decisioning/` folder alongside `people-science-core-reasoning/` in your agent’s skills directory, or install via:
 
 ```bash
-npx skills add https://github.com/YOUR-USERNAME/people-science-skills --skill compensation-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill compensation-decisioning
 ```
 
 ## License

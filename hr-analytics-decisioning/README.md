@@ -22,7 +22,7 @@ This skill adds the translation layer from question → construct → variable �
 Place the `hr-analytics-decisioning/` folder alongside the other people-science skills, or install via:
 
 ```bash
-npx skills add https://github.com/YOUR-USERNAME/people-science-skills --skill hr-analytics-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill hr-analytics-decisioning
 ```
 
 ## License

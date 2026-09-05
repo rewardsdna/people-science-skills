@@ -46,7 +46,7 @@ The skill systematically challenges conventional HR practices, forces distinctio
 ### One-command (recommended)
 
 ```bash
-npx skills add https://github.com/YOUR-USERNAME/people-science-skills --skill people-science-core-reasoning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill people-science-core-reasoning
 ```
 
 ### Manual

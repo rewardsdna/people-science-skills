@@ -22,7 +22,7 @@ This skill adds OB-specific distinctions, mechanism checklists, and guardrails a
 Place the `organizational-behavior-decisioning/` folder alongside the other people-science skills, or install via:
 
 ```bash
-npx skills add https://github.com/YOUR-USERNAME/people-science-skills --skill organizational-behavior-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill organizational-behavior-decisioning
 ```
 
 ## License
