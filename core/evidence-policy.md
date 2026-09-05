@@ -2,7 +2,16 @@
 
 ## Core Principle
 
-Do not confuse observational association with causal proof. Never use causal language ("drives", "causes", "boosts", "leads to", "improves") for correlation or observational workforce data without explicitly flagging it as an unproven causal hypothesis.
+Do not confuse observational association with causal proof. Never recommend a high-stakes intervention or full-scale policy change without first establishing baseline empirical evidence.
+
+---
+
+## 🛑 Premature Recommendation & Evidence Gatekeeping Rule
+
+1. **Require Evidence Before Intervention**: No high-stakes organizational intervention, reward restructuring, or policy overhaul may be recommended as a full rollout unless supported by strongly validated empirical evidence or internal experimental data.
+2. **Conditional Recommendations**: When critical data is missing or evidence is incomplete, the primary recommendation MUST be a **Diagnostic Audit** or a **Small-Scale Pilot Study**, NOT a full organizational commitment.
+3. **The Evidence Gatekeeper Condition**: Every recommendation MUST state an explicit **Gatekeeper Condition**:
+   > *"Do NOT authorize full implementation of [Intervention X] until [Evidence Benchmark Y] is verified."*
 
 ---
 
@@ -21,6 +30,7 @@ In this section, explicitly detail:
    - **Plausible** — Theoretically sound mechanism, but unverified in context.
    - **Assumption** — Premise supplied or inferred without empirical backing.
    - **Unknown / Unsubstantiated** — Insufficient evidence for a reliable conclusion.
+4. **Gatekeeper Condition**: Define the exact baseline data point or pilot metric required before full rollout.
 
 ---
 
