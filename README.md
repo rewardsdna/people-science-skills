@@ -19,6 +19,10 @@ They force better questions, clearer mechanisms, stronger evidence standards, an
 Install via `skills` CLI:
 
 ```bash
+# Interactive selection (pick skills from list)
+npx skills add https://github.com/rewardsdna/people-science-skills
+
+# Install individual skills directly
 # Core skill
 npx skills add https://github.com/rewardsdna/people-science-skills --skill people-science-core-reasoning
 
