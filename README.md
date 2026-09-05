@@ -25,6 +25,7 @@ npx skills add https://github.com/rewardsdna/people-science-skills --skill peopl
 # Companion skills
 npx skills add https://github.com/rewardsdna/people-science-skills --skill compensation-decisioning
 npx skills add https://github.com/rewardsdna/people-science-skills --skill hr-analytics-decisioning
+npx skills add https://github.com/rewardsdna/people-science-skills --skill organizational-behavior-decisioning
 ```
 
 ### Manual Installation
@@ -47,6 +48,7 @@ Clone the repository and copy the target skill folder into your agent's skills d
 | **[people-science-core-reasoning](./people-science-core-reasoning/)** | Foundational reasoning model for any people-related decision | Always — load this first for HR, talent, org behavior, or compensation questions |
 | **[compensation-decisioning](./compensation-decisioning/)** | Pay structures, internal equity, market positioning, incentives, and behavioral consequences | Analyzing or designing pay systems, equity, incentives, or total rewards |
 | **[hr-analytics-decisioning](./hr-analytics-decisioning/)** | Translating people questions into measurable variables, analytical designs, and decisions | Turning HR questions into metrics, research designs, models, or decision systems |
+| **[organizational-behavior-decisioning](./organizational-behavior-decisioning/)** | Distinguishing behavioral mechanisms from assumptions, evaluating culture, motivation, leadership, and interventions | Analyzing culture, engagement, motivation, team dynamics, leadership, or change interventions |
 
 ---
 
