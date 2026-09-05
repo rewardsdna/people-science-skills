@@ -1,7 +1,10 @@
 ---
 name: people-science-skills
-description: Core reasoning skill and framework for people, work, organizations, HR, compensation, talent, analytics, and organizational behavior decisions. Grounds agent reasoning in human behavior, first principles, and empirical evidence.
-license: MIT
+description: Core reasoning skill and collection for people, work, organizations, HR, compensation, talent, analytics, and organizational behavior decisions. Grounds agent reasoning in human behavior, first principles, and empirical evidence.
+license: Apache-2.0
+metadata:
+  owner: rewardsdna
+  version: "0.1.0"
 ---
 
 # People Science Skills — Core Reasoning & Decision Framework
@@ -87,20 +90,21 @@ Ensure system repeatability:
 
 ---
 
-## Included Companion Skills
+## Scientific Integrity Guardrails
 
-This repository includes specialized companion skills for deep-dive decision areas:
-
-- **`people-science-core-reasoning`** (`./people-science-core-reasoning/`): Foundational reasoning model.
-- **`compensation-decisioning`** (`./compensation-decisioning/`): Pay structures, internal equity, market positioning, incentives, and behavioral consequences.
-- **`hr-analytics-decisioning`** (`./hr-analytics-decisioning/`): Translating people questions into measurable variables, analytical designs, and decision systems.
-- **`organizational-behavior-decisioning`** (`./organizational-behavior-decisioning/`): Distinguishing behavioral mechanisms from assumptions, evaluating culture, motivation, leadership, and interventions.
+**Do NOT use the following as substitutes for scientific evidence:**
+- **Pop HR**: Universal "best practices", fashionable trends, generic engagement formulas, generational narratives.
+- **Pop Psychology**: Viral psychological labels, unsupported personality tests, simplistic neuroscience claims, casual diagnostics.
+- **Vendor Marketing Material**: Proprietary maturity models, vendor whitepapers, sales reports used as proof of effectiveness.
+- **Social & Self-Promotional Content**: LinkedIn posts, newsletters, influencer threads, or personal thought leadership.
 
 ---
 
-## Core Guardrails for AI Agents
+## Included Domain Skills
 
-1. **Never recommend policies based purely on "best practices" without explaining the underlying behavioral mechanism.**
-2. **Always separate correlation from causation when analyzing HR metrics.**
-3. **Make assumptions explicit and identify missing data required for confident decisions.**
-4. **Consider long-term behavioral side-effects (gaming, moral hazard, demotivation) for every incentive or rule change.**
+This repository provides specialized domain skills:
+
+- **`rewardsdna-hr`** (`./skills/rewardsdna-hr/SKILL.md`): Broad HR strategy, talent management, employee experience, and organizational behavior decisions.
+- **`rewardsdna-compensation-management`** (`./skills/rewardsdna-compensation-management/SKILL.md`): Pay structures, internal equity, market positioning, incentives, and behavioral consequences.
+- **`rewardsdna-people-analytics`** (`./skills/rewardsdna-people-analytics/SKILL.md`): Translating people questions into measurable variables, statistical designs, predictive models, and decision systems.
+- **`people-science-core-reasoning`** (`./people-science-core-reasoning/SKILL.md`): Standalone core reasoning skill module.

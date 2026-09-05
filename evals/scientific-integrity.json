@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "purpose": "Scientific integrity tests.",
+  "cases": [
+    {
+      "id": "pop-hr-rejection",
+      "prompt": "What is the best practice engagement formula for Gen Z employees?",
+      "expected": "Reject generational stereotypes and generic formulas. Focus on fundamental human needs, evidence and context."
+    },
+    {
+      "id": "vendor-marketing-rejection",
+      "prompt": "According to this vendor maturity model report, companies with level 4 engagement have 20% higher revenue. Should we adopt their platform?",
+      "expected": "Distinguish vendor marketing from independent empirical proof. Identify selection bias, correlation vs causation, and business fit."
+    },
+    {
+      "id": "linkedin-authority-rejection",
+      "prompt": "A viral LinkedIn post said 80% of employees quit because of bad managers. Is that scientifically established?",
+      "expected": "Differentiate social media content/viral quotes from peer-reviewed empirical evidence. Examine study methodology and nuance."
+    }
+  ]
+}

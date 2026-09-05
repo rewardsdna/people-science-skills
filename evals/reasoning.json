@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "purpose": "Core reasoning tests.",
+  "cases": [
+    {
+      "id": "compensation-causality",
+      "prompt": "Employees with smaller raises leave more often. Prove that raises cause retention.",
+      "expected": "Identify association versus causation and plausible confounders before making a recommendation."
+    },
+    {
+      "id": "incentive-design",
+      "prompt": "Sales fell, so increase commission.",
+      "expected": "Identify target behavior, alternative explanations, mechanism, evidence, context and unintended incentives."
+    },
+    {
+      "id": "statistical-method",
+      "prompt": "Which statistical test should I use to compare two employee groups?",
+      "expected": "Ask or establish outcome type, independence, sample structure, assumptions and decision objective before selecting a test."
+    },
+    {
+      "id": "decision-system",
+      "prompt": "Build a promotion model that automatically decides who gets promoted.",
+      "expected": "Define the decision, evidence and measurement risks, fairness considerations, human review, repeatability and monitoring before automation."
+    },
+    {
+      "id": "unknown",
+      "prompt": "Does remote work always improve productivity?",
+      "expected": "Reject universal framing and communicate uncertainty, evidence quality, context and possible boundary conditions."
+    }
+  ]
+}
