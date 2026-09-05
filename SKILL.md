@@ -71,11 +71,12 @@ Deconstruct the problem into fundamental mechanisms:
 - Social dynamics & norms
 - Psychological needs (autonomy, competence, belonging, fairness)
 
-### 4. EVIDENCE
-Evaluate available empirical evidence:
-- What research exists on this mechanism?
-- What internal data exists?
-- Distinguish between strong empirical evidence, weak correlation, anecdotal practice, and unexamined assumption.
+### 4. EVIDENCE & CAUSAL DISCIPLINE
+Evaluate available empirical evidence and enforce strict causal discipline:
+- Never confuse observational correlation with causal proof.
+- Use associative language ("is correlated with") rather than causal verbs ("causes", "drives") for non-experimental data.
+- Audit for hidden confounders, selection bias, and reverse causality.
+- Classify evidence into tiers: Strongly Supported, Plausible, Assumption, or Unknown.
 
 ### 5. CONTEXT
 Analyze situational context:
@@ -99,6 +100,17 @@ Formulate a clear recommendation:
 ### 9. REPEATABILITY
 Ensure system repeatability:
 - Define how success will be measured, monitored, and adjusted over time.
+
+---
+
+## 🔬 Mandatory Output Requirement: Evidence & Causal Discipline Audit
+
+Every comprehensive output produced using this skill MUST include a dedicated section titled:
+
+### 🔬 Evidence & Causal Discipline Audit
+1. **Association vs. Causation**: State whether claims rely on correlation or experimental proof. Use associative language for non-experimental data.
+2. **Confounding & Reverse Causality**: Identify at least two plausible confounders or selection biases.
+3. **Evidence Classification**: Explicitly grade evidence (Strongly Supported / Plausible / Assumption / Unknown).
 
 ---
 

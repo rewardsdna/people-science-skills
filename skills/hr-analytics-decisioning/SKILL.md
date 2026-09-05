@@ -1,6 +1,6 @@
 ---
 name: hr-analytics-decisioning
-description: Translate HR and people questions into measurable variables, analytical designs, and decisions. Use with people-science-core-reasoning when turning business or HR questions into metrics, research designs, models, or decision systems based on workforce data.
+description: Translate Human Resources and people analytics questions into measurable variables, analytical designs, statistical models, workforce metrics, and data-driven decisions. Use with people-science-core-reasoning when turning HR questions into research designs or decision systems.
 license: MIT
 ---
 
@@ -10,78 +10,37 @@ license: MIT
 
 Use this skill whenever the work involves translating a people-related question into data, metrics, analysis, or a decision system.
 
-## Purpose
+---
 
-Help the agent move from vague HR questions to:
+## Analytical Method & Statistical Discipline
 
-- Clear measurable variables
-- Appropriate analytical designs
-- Transparent interpretation
-- Decisions that respect the limits of the data
+Do not begin with the statistical model or machine learning algorithm.
 
-This is not a statistics textbook. It is a decisioning layer that keeps analysis grounded in the Core Reasoning model.
+1. **Clarify the decision**: What action will change based on this analysis?
+2. **Define outcome & unit of analysis**: What is being measured, at what level (individual, team, org)?
+3. **Examine causal mechanism**: What factors plausibly cause changes in this outcome?
+4. **Audit data quality**: Check for missingness, measurement error, and selection bias.
+5. **Select appropriate methodology**: Match statistical methods to data structure and research questions.
+6. **Differentiate inference**: Clearly separate descriptive stats, predictive models, and causal inference.
+7. **Evaluate practical significance**: Distinguish statistical significance ($p < 0.05$) from meaningful business impact.
+8. **Translate to decision system**: Define reproducible workflows, monitoring feedback loops, and human oversight.
 
-## Core Translation Process
+---
 
-1. **Start with the decision** (from Core Reasoning)
-2. **Identify the target behavior or outcome**
-3. **Define the construct(s)** carefully
-4. **Translate constructs into measurable variables**
-5. **Choose an analytical design that can actually answer the question**
-6. **State the assumptions required for causal or practical claims**
-7. **Interpret within the limits of the design and data**
-8. **Convert insight into a decision or a repeatable system**
+## Analytical Guardrails
 
-## From Question to Variable
+- **Correlation vs. Causation**: Never present statistical association or predictive correlation as causal proof.
+- **Model Simplification**: Prefer the simplest adequate analytical method. Do not use complex ML algorithms merely because they are available.
+- **Psychological Caution**: Do not infer individual psychological traits or diagnose employees from workplace data.
+- **Uncertainty Reporting**: Always report confidence, sample limitations, and context dependency.
 
-For every important construct, ask:
+---
 
-- What observable behavior or state does this represent?
-- How will it be measured?
-- What is the unit of analysis (person, team, role, time period)?
-- What is the expected range, distribution, and missingness?
-- What confounds or alternative explanations exist?
+## 🔬 Mandatory Output Section Requirement
 
-Avoid treating survey scores, ratings, or system flags as direct measures of deep psychological constructs without justification.
+Every response MUST include a dedicated section:
 
-## Analytical Design Guardrails
-
-- Prefer designs that match the causal or practical claim being made.
-- Distinguish description, prediction, and explanation.
-- Be explicit about selection effects, attrition, and missing data.
-- Report practical significance alongside statistical significance.
-- Prefer simpler transparent methods when they answer the question adequately.
-- Never let model complexity substitute for understanding the problem.
-
-## Common HR Analytics Pitfalls to Avoid
-
-- Treating correlation as mechanism
-- Using lagging indicators as if they were leading
-- Ignoring range restriction or selection into the sample
-- Over-interpreting single-item or low-reliability measures
-- Presenting dashboards as decisions
-- Building “predictive” models without a clear decision that will use the prediction
-- Optimizing a metric that is easy to measure rather than the behavior that matters
-
-## Output Structure for Analytics Work
-
-When delivering analysis or recommendations:
-
-1. **Decision the analysis is meant to inform**
-2. **Target behavior / outcome**
-3. **Constructs and their operational definitions**
-4. **Data and design** (including limitations)
-5. **Key findings** with evidence classification
-6. **Alternative explanations**
-7. **Implications for action**
-8. **What should be monitored or tested next**
-9. **Whether a repeatable decision rule or system is warranted**
-
-## Integration with Core Reasoning
-
-Run the full Core Reasoning sequence.  
-This skill specializes the Evidence, Context, Alternatives, and Repeatability stages for quantitative people data.
-
-## Guiding Principle
-
-Good HR analytics starts with a decision worth making, not with a dataset worth analyzing.
+### 🔬 Evidence & Causal Discipline Audit
+1. **Association vs. Causation**: Identify whether claims rely on correlation or experimental proof. Use associative language for observational data.
+2. **Confounding & Reverse Causality**: Identify at least two plausible confounders, selection biases, or reverse causality vectors.
+3. **Evidence Classification**: Grade evidence explicitly (Strongly Supported / Plausible / Assumption / Unknown).

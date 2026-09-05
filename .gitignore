@@ -12,6 +12,11 @@ Thumbs.db
 node_modules/
 *.log
 
+# Python files (DO NOT COMMIT)
+*.py
+*.pyc
+__pycache__/
+
 # Streamlit & Local Secrets / Testing (DO NOT COMMIT)
 .streamlit/
 scratch/
