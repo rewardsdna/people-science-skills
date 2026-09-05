@@ -11,3 +11,13 @@ Thumbs.db
 # Node / Temporary files
 node_modules/
 *.log
+
+# Streamlit & Local Secrets / Testing (DO NOT COMMIT)
+.streamlit/
+scratch/
+.test_runner/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.env
